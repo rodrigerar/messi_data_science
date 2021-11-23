@@ -1,0 +1,193 @@
+  218  git config --global rodrigerar
+  219  git config --global user.name "rodrigerar"
+  220  git config --global user.email "rodrigerar@gmail.com"
+  221  pwd
+  222  cd ..
+  223  ls -ltr
+  224  pwd
+  225  cd Puma
+  226  pwd
+  227  cd data
+  228  ls -ltr
+  229  cd puma
+  230  ls -ltr
+  231  pwd
+  232  git clone https://github.com/rodrigerar/messi_data_science.git
+  233  pwd
+  234  ls -ltr
+  235  cd messi_data_science/
+  236  ls -ltr
+  237  pwd
+  238  clear
+  239  ls -ltr
+  240  pwd
+  241  git status
+  242  vim README.md
+  243  bash
+  244  vim README.md 
+  245  vi README.md 
+  246  clear
+  247  touch miguel.txt
+  248  ls -ltr
+  249  vi miguel.txt 
+  250  rm miguel.txt 
+  251  vi README.md 
+  252  clear
+  253  ls -ltr
+  254  cat README.md 
+  255  git status
+  256  clear
+  257  git status
+  258  git add .
+  259  git status
+  260  git commit -m "Generación de archivo README.md"
+  261  git status
+  262  git push origin master
+  263  git remote set-url origin https://github.com/rodrigerar/messi_data_science.git
+  264  clear
+  265  git push origin master
+  266  git push origin main
+  267  echo "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" > .token
+  268  ls -la
+  269  git status
+  270  echo ".token" > .gitignore
+  271  ls -la
+  272  git status
+  273  git add .
+  274  ls -ltr
+  275  git commit -m "Agrega .gitignore"
+  276  git status
+  277  git push origin main
+  278  pwd
+  279  cd ..
+  280  ls -ltr
+  281  pwd
+  282  ls shell/
+  283  cd opentraveldata/
+  284  ls -ltr
+  285  ls -ltrS
+  286  ls -lS
+  287  clear
+  288  ls -lsrt
+  289  du ref_airline_nb_of_flights.csv
+  290  du optd_por_public.csv
+  291  du -hs optd_por_public.csv
+  292  clear
+  293  ls -lstr
+  294  pwd
+  295  exit
+  296  ls -lstr
+  297  cd /home/dsc/data/opentraveldata
+  298  ls -lstr
+  299  pwd
+  300  ls -lStr
+  301  ls -lstr
+  302  ls -lsr
+  303  ls -lssr
+  304  ls -ls
+  305  ls -lst
+  306  ls -lstr
+  307  ls -lsr
+  308  ls -lh
+  309  ls -lS
+  310  ls -lS | head -1
+  311  ls -lS | tail -1
+  312  ls -lS | head -1
+  313  ls -lS | head -2
+  314  clear
+  315  ls -lS
+  316  ls -lS | head -1
+  317  ls -lS | head -2
+  318  ls -lS | head -2 | tail -1
+  319  pwd
+  320  cd data
+  321  ll
+  322  cd p
+  323  cd puma
+  324  lll
+  325  ll
+  326  cd messi_data_science
+  327  ll
+  328  ls -ltr
+  329  bash
+  330  vi 001.sh
+  331  ls -ltr
+  332  chmod 777 001.sh 
+  333  ./001.sh 
+  334  vi 001.sh
+  335  ./001.sh 
+  336  vi 001.sh 
+  337  ./001.sh 
+  338  vi 001.sh 
+  339  ./001.sh 
+  340  vi 001.sh 
+  341  ./001.sh > 001.OUT
+  342  ls -ltr
+  343  cat 001.OUT 
+  344  clear
+  345  pwd
+  346  git status
+  347  git add .
+  348  git status
+  349  git commit -m "Entrega script 001.sh"
+  350  git status
+  351  clear
+  352  git push origin main
+  353  ls -la
+  354  cat .token 
+  355  git push origen main
+  356  pwd
+  357  ls -ltr
+  358  git push origin main
+  359  pwd
+  360  clear
+  361  ls -ltr
+  362  pwd
+  363  ls -ltr
+  364  vi 001.sh 
+  365  cp 001.sh 005.sh
+  366  ls -ltr
+  367  vi 001.sh 
+  368  vi 001.OUT 
+  369  vi 005.sh 
+  370  ./005.sh 
+  371  ./005.sh > 005.OUT
+  372  ls -ltr
+  373  vi 001.sh 
+  374  vi 001.OUT
+  375  vi 005.sh 
+  376  ./001.sh 
+  377  ./005.sh 
+  378  pwd
+  379  ls -ltr
+  380  cp 001.sh 002.sh
+  381  vi 002.sh 
+  382  ./002.sh 
+  383  ./002.sh > 002.OUT
+  384  ls -ltr
+  385  git status
+  386  git add .
+  387  git commit -m "Entgera script 002 y 005"
+  388  git push origin main
+  389  ls -ltr
+  390  cp 001.sh 003.sh
+  391  vi 003.sh 
+  392  ls -ltr
+  393  ./003.sh 
+  394  ./003.sh > 003.OUT
+  395  ls -ltr
+  396  git status
+  397  git add .
+  398  git commit -m "Entgera script 003"
+  399  git push origin main 
+  400  ls -ltr
+  401  cp 001.sh 004.sh
+  402  vi 004.sh
+  403  ls -ltr
+  404  git status
+  405  git add .
+  406  git commit -m "Entgera script 004"
+  407  git push origin main 
+  408  history | more
+  409  clear
+  410  history > history.txt
